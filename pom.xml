@@ -2,18 +2,16 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example.workflow</groupId>
-  <artifactId>mysosoworkflow</artifactId>
+  <groupId>com.mycamunda.workflow</groupId>
+  <artifactId>my-camunda</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
-    <java.version>8</java.version>
+    <maven.compiler.source>15</maven.compiler.source>
+    <maven.compiler.target>15</maven.compiler.target>
+    <java.version>11</java.version>
   </properties>
-
-
 
   <dependencyManagement>
     <dependencies>
@@ -80,6 +78,14 @@
         <artifactId>spring-boot-maven-plugin</artifactId>
         <version>2.6.4</version>
       </plugin>
+      <!-- <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin> -->
     </plugins>
   </build>
 
